@@ -1,12 +1,12 @@
 import Form from "next/form";
 import AnalyseButton from "./AnalyseButton";
-import { analyesYoutubeVideo } from "@/actions/analyesYoutubeVideo";
+import { analyzeYoutubeVideo } from "@/actions/analyesYoutubeVideo";
 
 export default function YoutubeVideoForm() {
   return (
     <div className="w-full max-w-2xl mx-auto">
       <Form
-        action={analyesYoutubeVideo}
+        action={analyzeYoutubeVideo}
         className="flex flex-col md:flex-row gap-2 items-center"
       >
         {/* On submission, the input value will be appended to
