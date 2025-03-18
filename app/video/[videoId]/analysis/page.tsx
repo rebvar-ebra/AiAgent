@@ -1,3 +1,4 @@
+import Usage from "@/app/components/Usage";
 import React from "react";
 
 function Page() {
@@ -7,6 +8,7 @@ function Page() {
         {/* Left Side */}
         <div className="order-2 lg:order-1 flex flex-col gap-4 bg-white lg:border-r border-gray-200 p-6">
           {/* Anaysis */}
+          <Usage />
           {/* Youtube */}
           {/* Anaysis */}
           {/* Anaysis */}
